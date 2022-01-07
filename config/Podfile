@@ -6,7 +6,9 @@ target 'ConfigExample' do
   use_frameworks!
 
   # Pods for ConfigExample
-  pod 'Firebase/RemoteConfig'
+  pod 'FirebaseRemoteConfig', :path => "/Users/paulbeusterien/gh5/firebase-ios-sdk"
+  pod 'FirebaseRemoteConfigSwift', :path => "/Users/paulbeusterien/gh5/firebase-ios-sdk"
+  pod 'FirebaseSharedSwift', :path => "/Users/paulbeusterien/gh5/firebase-ios-sdk"
 
   target 'ConfigExampleTests' do
     inherit! :search_paths
